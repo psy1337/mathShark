@@ -43,7 +43,9 @@ function App() {
 
   return (
     <div className={styles.container}>
-      <h1>Math Shark</h1>
+      <h1>
+        Math Shark <span className={styles.authorText}>by Zaijan Gamulo</span>
+      </h1>
       <div className={styles.questionText}>
         {factor1} x {factor2} = ?
       </div>
